@@ -37,15 +37,6 @@ function bienvenida(nombre) {
 console.log(bienvenida("Erika"));
 console.log(bienvenida("Juan"));
 
-
-
-//FUNCIONES ARROW
-const multiplicar=(a,b) => a*b;
-console.log(multiplicar(4,2)) // 8
-
-
-
-
 //FUNCIONES COMO PARAMETROS
 function operar(a, b, operacion) {
     return operacion(a, b);
@@ -102,6 +93,43 @@ console.log(generarUsuario("Juan Pérez"));
 console.log(generarUsuario("Erika Helfenstern"));
 
 
+
+//FUNCIONES ARROW
+const multiplicar=(a,b) => a*b;
+console.log(multiplicar(4,2)) // 8
+
+//otro ej Saludar con Arrow Function
+const saludar = nombre => `¡Hola, ${nombre}!`;
+console.log(saludar("Erika")); 
+console.log(saludar("Juan"));
+
+//otro ej Convertir una frase a mayúsculas
+const gritar = texto => texto.toUpperCase() + "!!!";
+console.log(gritar("javascript es genial"));
+
+
+//otro ej Verificar si una palabra está dentro de una frase
+const gritar = texto => texto.toUpperCase() + "!!!";
+console.log(gritar("javascript es genial"));
+
+//otro ej Contar letras en una palabra
+const contienePalabra = (frase, palabra) => frase.includes(palabra);
+console.log(contienePalabra("Aprender JavaScript es divertido", "JavaScript")); // true
+console.log(contienePalabra("Hoy es un buen día", "noche")); // false
+
+//otro ej Generar un nombre de usuario a partir de un nombre completo
+const contarLetras = palabra => `La palabra '${palabra}' tiene ${palabra.length} letras.`;
+console.log(contarLetras("javascript"));
+console.log(contarLetras("zorro"));
+
+//otro ej Extraer iniciales de un nombre
+const obtenerIniciales = nombre => nombre.split(" ").map(palabra => palabra[0]).join("").toUpperCase();
+console.log(obtenerIniciales("Juan Pérez")); // JP
+console.log(obtenerIniciales("Erika Helfenstern")); // EH
+
+//otro ej Devolver una palabra al revés
+const invertirPalabra = palabra => palabra.split("").reverse().join("");
+console.log(invertirPalabra("javascript")); // tpircsavaj
 
 
 
