@@ -7,8 +7,13 @@ function saludar(){
 
 saludar(); //llamamos a la funcion
 
-
-
+//otra
+function saludar(nombre) {
+    return `Hola, ${nombre}!`;
+  }
+  
+  console.log(saludar("Erik")); // "Hola, Erik!"
+  
 
 //FUNCION CON PARAMETROS//
 function saludarUsuario(nombre){
@@ -17,6 +22,12 @@ function saludarUsuario(nombre){
 
 saludarUsuario(); //lamamos a la funcion
 
+1️⃣ Sumar dos números
+    function sumar(a,b){
+        return a+b;
+    }
+
+    const sumar = (a,b) => a + b;
 
 
 
@@ -63,7 +74,7 @@ console.log(gritar("javascript es divertido"));
 
 //Función para contar letras en una palabra
 function contarLetras(palabra) {
-    return "La palabra '" + palabra + "' tiene " + palabra.length + " letras.";
+    return "La palabra " + palabra + " tiene " + palabra.length + " letras.";
 }
 
 console.log(contarLetras("javascript"));
@@ -131,8 +142,17 @@ console.log(obtenerIniciales("Erika Helfenstern")); // EH
 const invertirPalabra = palabra => palabra.split("").reverse().join("");
 console.log(invertirPalabra("javascript")); // tpircsavaj
 
+//RECIBE NOMBRE Y DEVUELVE CUANTAS VOCALES TIENE
 
+const contarVocales = nombre => {
+    const vocales = nombre.match(/[aeiouáéíóúAEIOUÁÉÍÓÚ]/g);
+    return vocales ? vocales.length : 0;
+};
 
+console.log(contarVocales("Erika")); // 3
+console.log(contarVocales("Juan Pérez")); // 5
+console.log(contarVocales("Cristóbal")); // 4
+console.log(contarVocales("Sky")); // 0
 
 
 
