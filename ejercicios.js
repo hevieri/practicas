@@ -1,7 +1,4 @@
 /*Ejemplo básico de función
-javascript
-Copiar
-Editar
 function saludar(nombre) {
   return `Hola, ${nombre}!`;
 }
@@ -9,9 +6,14 @@ function saludar(nombre) {
 console.log(saludar("Erik")); // "Hola, Erik!"
 💡 Practica: Crea funciones simples como sumar dos números o convertir temperaturas.*/
 
+function sumar(a, b) {
+    let suma = a + b; // ✅ Ahora sí está sumando
+    return `La suma es ${suma}`;
+ }
+ 
+ console.log(sumar(3, 5));
 
-/*
- 2. Practica con funciones reutilizables
+/*  2. Practica con funciones reutilizables
 Las funciones sirven para evitar repetir código. Intenta hacer funciones que puedan usarse varias veces.
 
 Ejemplo de una función reutilizable
@@ -104,4 +106,6 @@ Una que diga si una palabra es corta (menos de 5 letras) o larga (más de 5).
 ✅ Convertir grados Celsius a Fahrenheit ((C × 9/5) + 32).
 ✅ Determinar si un número es par o impar.
 */
+
+
 
