@@ -1,6 +1,6 @@
 // Aritmetica
 
-var suma = 30 + 5;
+let suma = 30 + 5;
 console.log(suma);
 
 var resta = 30 - 5;

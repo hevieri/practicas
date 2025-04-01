@@ -1,4 +1,16 @@
+/**
+  funciones
+  funciones anónimas
+  arrow functions
 
+  variables: let
+  constantes: const
+
+  Estructuras de datos: arrays, objetos
+  Operadores: aritméticos, de comparación, lógicos
+
+  Bucles: for, while, do while, map, forEach 
+ **/
 
 
 
