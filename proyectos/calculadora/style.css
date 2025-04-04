@@ -49,6 +49,8 @@
     justify-content: center;
     align-items: center;   
     flex-direction: column; /* 👈 Esto organiza las cajas en vertical */
+    font-size: 20px;    
+    text-align: center;
     
 }
 #mostrarPantalla{    
@@ -56,8 +58,7 @@
     width: 300px;
     background-color: #ffffffc4;
     border-radius: 3px;
-    margin: 1px;
-    
+    margin: 1px;    
     
     
 }
@@ -88,12 +89,16 @@
 p{
     color: rgba(255, 255, 255, 0.634);
     margin: 8px;
-    font-size: 8px;
 }
 h1{
     color: rgba(255, 255, 255, 0.634);
     margin: 8px;
-    font-size: 24px;
+    font-size: 20px;
+}
+#registrada{
+    color: rgba(255, 255, 255, 0.634);
+    margin: 8px;
+    font-size: 8px;
 }
 button#borrar{
     background-color: #d9070788;
