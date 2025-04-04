@@ -95,3 +95,7 @@ h1{
     margin: 8px;
     font-size: 24px;
 }
+button#borrar{
+    background-color: #d9070788;
+    opacity: 0,8;
+}
