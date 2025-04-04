@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.numeros{
+    height: 230px;
+    width: 180px;
+    background-color: #ffffffc4;
+    display: grid;        /* activa grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    margin: 1px;
+ 
+  
+}
+.operadores{
+    height: 230px;
+    width: 120px;
+    background-color: #ffffffc4;   
+    margin: 1px;
+}
+
+.numeros button {
+    margin: 0.2rem;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    
+}
+.operadores button {
+    margin: 0.2rem;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column; /* 👈 Esto organiza las cajas en vertical */
+    
+}
+#mostrarPantalla{    
+    height: 50px;
+    width: 300px;
+    background-color: #ffffffc4;
+    border-radius: 3px;
+    margin: 1px;
+    
+    
+    
+}
+#resultado{
+    height: 50px;
+    width: 300px;
+    margin: 1px;
+    background-color: #ffffffc4;
+    
+    border-radius: 3px;
+   
+}
+
+#calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* 👈 Esto organiza las cajas en vertical */
+    margin: 25px;
+    background-color: #383737;
+    height: 420px;
+    width: 380px;
+    text-align: right;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+p{
+    color: rgba(255, 255, 255, 0.634);
+    margin: 8px;
+    font-size: 8px;
+}
+h1{
+    color: rgba(255, 255, 255, 0.634);
+    margin: 8px;
+    font-size: 24px;
+}
