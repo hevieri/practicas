@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver más / Ver menos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="toggleBtn" data-target="texto1">Ver más</button>
+    <div id="texto1" class="oculto">
+        <p>Este es el primer texto oculto.</p>
+    </div>
+
+    <button class="toggleBtn" data-target="texto2">Ver más</button>
+    <div id="texto2" class="oculto">
+        <p>Este es el segundo texto oculto.</p>
+    </div>
+
+    <button class="toggleBtn" data-target="texto3">Ver más</button>
+    <div id="texto3" class="oculto">
+        <p>Este es el tercer texto oculto.</p>
+    </div>
+
+    <button class="toggleBtn" data-target="texto4">Ver más</button>
+    <div id="texto4" class="oculto">
+        <p>Este es el cuarto texto oculto.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+📌 Cada botón tiene data-target="textoX" para indicar qué texto debe mostrarse.
