@@ -1,1 +1,1 @@
--- SQL inicial
+-- SQL básico
