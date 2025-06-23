@@ -1,0 +1,4 @@
+template-parts/          (Partes reutilizables del tema)
+│   ├── header/              (Cabeceras personalizadas)
+│   ├── footer/              (Pies de página personalizados)
+│   └── ...                  (Otras plantillas parciales)

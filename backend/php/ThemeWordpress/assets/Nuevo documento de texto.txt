@@ -1,0 +1,5 @@
+── assets/                  (Carpeta para recursos estáticos)
+│   ├── css/                 (Archivos CSS adicionales)
+│   ├── js/                  (Archivos JavaScript)
+│   ├── images/              (Imágenes del tema)
+│   └── fonts/               (Fuentes personalizadas)

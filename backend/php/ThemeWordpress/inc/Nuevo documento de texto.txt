@@ -1,0 +1,4 @@
+inc/                     (Carpeta para funcionalidades adicionales)
+│   ├── customizer.php       (Opciones del personalizador)
+│   ├── widgets.php          (Widgets personalizados)
+│   └── ...                  (Otras funcionalidades)
