@@ -1,6 +1,0 @@
-{
-  "usuarios": [
-    { "nombre": "Erika", "edad": 27, "ciudad": "Buenos Aires" },
-    { "nombre": "Juan", "edad": 32, "ciudad": "Madrid" }
-  ]
-}
