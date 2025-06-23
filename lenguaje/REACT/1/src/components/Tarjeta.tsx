@@ -3,6 +3,7 @@ type Props = {
   contenido: string;
 };
 
+
 export function Tarjeta({ titulo, contenido }: Props) {
   return (
     <div style={{
