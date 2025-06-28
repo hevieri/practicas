@@ -1,1 +1,18 @@
 https://www.youtube.com/watch?v=lLsyzBggW_o&list=PLH_tVOsiVGzmnl7ImSmhIw5qb9Sy5KJRE&index=1
+
+01| index
+02| concatenacion
+03| constantes
+04| array
+05| variable
+06| operadores_aritmeticos
+07| operadores_asignacion
+08| operadores_referencia
+09| operadores_logicos
+10| operador_ternario
+11| if
+12| if-elseif
+13| else
+14| switch
+15| match
+16| 
