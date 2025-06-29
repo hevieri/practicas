@@ -17,8 +17,8 @@ https://www.youtube.com/watch?v=lLsyzBggW_o&list=PLH_tVOsiVGzmnl7ImSmhIw5qb9Sy5K
 15| match
 16| while
 17| do while
-18| 
-19| 
+18| ciclo for
+19| foreach
 
 
 if → Ejecuta algo solo si la condición es verdadera.
