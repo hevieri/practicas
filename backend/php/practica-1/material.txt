@@ -15,4 +15,32 @@ https://www.youtube.com/watch?v=lLsyzBggW_o&list=PLH_tVOsiVGzmnl7ImSmhIw5qb9Sy5K
 13| else
 14| switch
 15| match
-16| 
+16| while
+17| do while
+18| 
+19| 
+
+
+if → Ejecuta algo solo si la condición es verdadera.
+
+if...else → Ejecuta una cosa si es verdadera, y otra si es falsa.
+
+switch → Compara un valor contra varios posibles casos, usando ==.
+
+match → Devuelve un resultado según coincidencia exacta (===), más limpio y moderno.
+
+while → Repite mientras la condición sea verdadera (puede no entrar nunca).
+
+do...while → Igual que while, pero siempre ejecuta al menos una vez.
+
+for → Repite una cantidad de veces predefinida, con contador incluido.
+
+foreach → Recorre todos los elementos de un array, ideal para mostrar listas completas.
+
+
+
+20| 
+21| 
+22| 
+23| 
+24| 
