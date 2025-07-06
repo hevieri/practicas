@@ -18,7 +18,7 @@ $laptop=["Acer Nitro", "Windows11","AMD RYZEN", "16GB RAM", "1TB SSD", "NVIDIA R
 
 
 
-foreach($laptop as $valor){
+foreach($laptop as $clave => $valor){
     echo $valor."<br>";
 }
 ?>

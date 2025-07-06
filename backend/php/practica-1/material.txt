@@ -19,6 +19,7 @@ https://www.youtube.com/watch?v=lLsyzBggW_o&list=PLH_tVOsiVGzmnl7ImSmhIw5qb9Sy5K
 17| do while
 18| ciclo for
 19| foreach
+20| funciones
 
 
 if → Ejecuta algo solo si la condición es verdadera.
