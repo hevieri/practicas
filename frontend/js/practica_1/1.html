@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos locos</title>
+</head>
+<body>
+    <h1>Autos locos</h1>
+   <script src="array.js"></script>
+   <h2>Tabla de los autos</h2>
+   <table>
+    <tr>
+        <td>Numero</td>
+        <td>Auto</td>
+        <td>Conductor</td>
+        <td>Imagen</td>
+        <td>Victorias</td>
+        <td>Orden del video</td>
+        <td>Características</td>
+    </tr>
+        <script>
+            
+            for(var i in autos_locos){
+                document.write("<tr>");
+                //Numero
+                document.write("<td>" + autos_locos[i][0] +"</td>");
+                //Auto
+                document.write("<td>" + autos_locos[i][1] +"</td>");
+                //conductor
+                document.write("<td>" + autos_locos[i][2] +"</td>");
+                //Imagen
+                document.write("<td><img src='" + autos_locos[i][3] + "' /></td>");
+                //Victorias
+                document.write("<td>" + autos_locos[i][4] +"</td>");
+                //Orden video
+                document.write("<td>" + autos_locos[i][5] +"</td>");
+                //Características
+                document.write("<td>" + autos_locos[i][6] +"</td>");
+
+                document.write("</tr>");
+            }
+        </script>
+    </table>
+
+    <h2>Orden de presentación en el video</h2>
+    <ul>
+
+        <script>
+            //Busco las posiciones
+            for(var i = 1; i <= autos_locos.length;i++)
+            {
+                for(var z in autos_locos){ //Busco el auto en la posición i
+                    if(autos_locos[z][5] == i){
+                        document.write("<li>" + autos_locos[z][1] + "</li>");
+                    }
+                }
+            }
+        </script>
+    </ul>
+
+    <h2>Los más ganadores</h2>
+    <ul>
+    <script>
+
+        // Ordenar el array por el campo "cantidad de victorias"
+        autos_locos.sort(function(a, b) {
+            var victoriasA = a[4];
+            var victoriasB = b[4];
+
+            if(victoriasA == victoriasB) {
+                var numeroA = a[0];
+                var numeroB = b[0];
+                if(numeroA < numeroB) {
+                    return -1;
+                }
+                if(numeroA > numeroB) {
+                    return 1;
+                }
+            }
+            if (victoriasA < victoriasB) {
+                return -1;
+            }
+            if (victoriasA > victoriasB) {
+                return 1;
+            }
+            return 0;
+        });
+         
+        for(var i in autos_locos){
+            document.write("<li>" + autos_locos[i][1] + "</li>");
+        }            
+    </script>
+    </ul>
+
+</body>
+</html>
