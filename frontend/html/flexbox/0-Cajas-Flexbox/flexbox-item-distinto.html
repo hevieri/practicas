@@ -1,3 +1,32 @@
-.caja:nth-child(1) { order: 3; }
-.caja:nth-child(2) { order: 1; }
-.caja:nth-child(3) { order: 2; }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo Flex Order</title>
+  <style>
+    body {
+      display: flex; /* convierte al body en contenedor flex */
+      gap: 10px;     /* espacio entre las cajas */
+    }
+
+    .caja {
+      width: 100px;
+      height: 100px;
+      background: lightblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .caja:nth-child(1) { order: 3; }
+    .caja:nth-child(2) { order: 1; }
+    .caja:nth-child(3) { order: 2; }
+  </style>
+</head>
+<body>
+  <div class="caja">Caja 1</div>
+  <div class="caja">Caja 2</div>
+  <div class="caja">Caja 3</div>
+</body>
+</html>

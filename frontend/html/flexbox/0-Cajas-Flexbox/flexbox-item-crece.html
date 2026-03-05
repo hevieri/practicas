@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
     <title>Prueba de cajas</title>
     <style>
-      .contenedor { display: flex;
-         justify-content: space-between; }
-         
-        .caja {
-  flex-grow: 1;
-}
+        .contenedor {
+            display: flex;
+            justify-content: space-between; /* distribuye las cajas con espacio entre ellas */
+            gap: 10px; /* opcional: agrega espacio fijo entre cajas */
+        }
 
+        .caja {
+            flex-grow: 1; /* cada caja crece para ocupar el espacio disponible */
+            background-color: lightcoral;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -21,7 +30,3 @@
     </div>
 </body>
 </html>
-
-
-
-

@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
     <title>Prueba de cajas</title>
     <style>
-      .contenedor { display: flex;
-         justify-content: space-between; }
-         
+        .contenedor {
+            display: flex;
+            justify-content: space-between; /* distribuye las cajas con espacio entre ellas */
+        }
+
         .caja {
             width: 100px;
             height: 100px;
             background-color: lightblue;
             border: 2px solid rgb(5, 5, 5);
             display: flex;
-            align-items: center;    /* Centra verticalmente el texto */
-            justify-content: center;/* Centra horizontalmente el texto */
+            align-items: center;     /* centra verticalmente el texto */
+            justify-content: center; /* centra horizontalmente el texto */
+            font-weight: bold;
         }
     </style>
 </head>
@@ -26,7 +30,3 @@
     </div>
 </body>
 </html>
-
-
-
-
