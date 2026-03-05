@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Ejercicio 10</h1>
+
+    <script>
+        var cantidadPares = 0;
+        var cantidadImpares = 0;
+        var sumaPares = 0;
+        var sumaImpares = 0;
+
+        for (var i = 1; i <= 10; i++){
+            var numero = parseFloat(prompt("ingrese el numero #" + i + ":"));
+
+            if (numero %2 === 0){
+                cantidadPares++;
+                sumaPares += numero;
+
+            }else{
+                cantidadImpares++;
+                sumaImpares += numero;
+            }
+        }
+
+        document.write("<p>Cantidad de numeros pares ingresados: " + cantidadPares + "</p>");
+        document.write("<p>Suma de numeros pares ingresados: " + sumaPares + "</p>");
+        document.write("<p>Cantidad de numeros impares ingresados: " + cantidadImpares + "</p>");
+        document.write("<p>Suma de numeros impares ingresados: " + sumaImpares + "</p>");
+
+        if (cantidadPares > cantidadImpares){
+            document.write("<p>El grupo de numeros pares sumo la mayor cantidad</p>");
+        }else if (cantidadPares < cantidadImpares){
+            document.write("<p> El grupo de numeros impares sumo la mayor cantidad. </p>");
+
+        }else{
+            document.write("<p>No hay diferencia en la cantidad de pares e impares</p>");
+        }
+        
+    </script>
+</body>
+</html>

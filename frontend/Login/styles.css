@@ -1,0 +1,119 @@
+ body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 16px;
+      width: 340px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      backdrop-filter: blur(12px);
+      color: #fff;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .input-group {
+      margin-bottom: 20px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.25);
+      font-size: 1rem;
+      color: #fff;
+    }
+
+    .input-group input::placeholder {
+      color: #ddd;
+    }
+
+    .input-group input:focus {
+      outline: none;
+      background: rgba(255,255,255,0.4);
+    }
+
+    .checkbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+    }
+
+    .checkbox input {
+      margin-right: 8px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .buttons input {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      border-radius: 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .login-btn {
+      background: rgba(0,120,215,0.8);
+      color: #fff;
+    }
+
+    .login-btn:hover {
+      background: rgba(0,90,158,0.9);
+    }
+
+    .register-btn {
+  display: inline-block;       /* que se comporte como botón */
+  text-align: center;
+  padding: 12px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.3);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;       /* quita el subrayado */
+  transition: background 0.2s;
+}
+
+.register-btn:hover {
+  background: rgba(255,255,255,0.5);
+}
+
+.buttons a {
+  flex: 1;                     /* ocupa espacio igual que el botón */
+  display: inline-block;       /* se comporta como bloque */
+  text-align: center;
+  padding: 12px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.3);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;       /* quita el subrayado */
+  transition: background 0.2s;
+}
+
+.buttons a:hover {
+  background: rgba(255,255,255,0.5);
+}

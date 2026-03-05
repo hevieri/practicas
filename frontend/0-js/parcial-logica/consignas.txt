@@ -1,0 +1,40 @@
+En un documento HTML de nombre:
+ej1-apellido-nombre.html
+desarrollar el siguiente ejercicio:
+
+1- En dos variables separadas defina su nombre y luego su apellido. Realice el algoritmo que arme y muestre el mensaje "Hola, soy", seguido del nombre y apellido, y termine con la frase "Este es mi parcial" Tener en cuenta que el mensaje debe tener las partes separadas por un espacio.
+El mensaje se debe guardar en otra variable y ésta se utilizará para mostrarlo en los 3 métodos de salida: por consola por alert() y en un párrafo.
+Para este ejercicio, se deben usar variables con nombres en notación camelCase.
+
+----------------------------------------
+En un documento HTML de nombre:
+ej2-apellido-nombre.html
+desarrollar el siguiente ejercicio:
+
+2 - Solicitados los tres lados de un triángulo a un usuario informar si es equilátero (los 3 lados iguales), isósceles (2 lados iguales) o escaleno (los 3 lados distintos). Para este ejercicio no se pueden usar los operadores lógicos AND (&&) ni OR (||).
+
+----------------------------------------
+En un documento HTML de nombre:
+ej3-apellido-nombre.html
+desarrollar el siguiente ejercicio:
+
+3- Realizar un sistema para el cálculo de sueldo de una empresa de seguros. Se le solicita al empleado que ingrese el valor de la hora, la cantidad de horas trabajadas en el mes, los años de antigüedad, la cantidad de seguros vendidos y el valor del seguro más caro vendido. 
+
+Realice el algoritmo para calcular e informar el sueldo de tres empleados (3) en el mes, teniendo en cuenta que se le asigna un premio igual al 50% del seguro más caro vendido, un premio igual al 20% del sueldo bruto por la cantidad de seguros vendidos y otro premio igual al 5% del sueldo bruto por año de antigüedad. Calcular e informar:
+- Sueldo bruto (son solamente las horas trabajadas);
+- Sueldo neto (con un descuento de aportes del 20 sobre el bruto);
+- Premios (cada uno por separado - los premios no sufren descuentos -);
+- Cuanto cobra en mano (neto + todos los premios);
+
+Se debe informar todo en el body del HTML con el método document.write(); en una lista desordenada para cada empleado
+
+Para este ejercicio NO se puede usar bucles for() (bucles cerrados).
+
+---------------------------------------
+En todos los ejercicio puede utilizar Pseudocódigo como proceso
+Dejarlo comentado en el HTML o bloque JS
+
+---------------------------------------
+Al finalizar, cargue los 3 archivos por separado (no los adjuntes en .zip ni .rar) en la tarea asignada del Classroom.
+
+Éxitos

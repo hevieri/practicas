@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <script>
+        var nroEmpleado= 1; 
+        do{ 
+
+            var hora= +prompt('Ingrese el valor de la hora para el empleado ' + nroEmpleado);
+            var cantHoras= +prompt('Ingrese la cantidad de horas trabajadas en el mes para el empleado ' + nroEmpleado);
+            var antiguedad= +prompt('Ingrese años de antigüedad para el empleado ' + nroEmpleado);
+            var cantVentas= +prompt('Ingrese la cantidad de seguros vendidos para el empleado ' + nroEmpleado);
+            var valorVenta= +prompt('Ingrese el valor del seguro más caro vendido para el empleado ' + nroEmpleado);
+            
+            var sueldoBruto= hora*cantHoras;
+            var sueldoNeto= sueldoBruto*0.8;
+            var premio1= valorVenta / 2;
+            var premio2= sueldoBruto*0.2*cantVentas;
+            var premio3= sueldoBruto*0.05*antiguedad;
+            var enMano= sueldoNeto + premio1+ premio2 + premio3;
+
+            document.write('<br>Empleado ' + nroEmpleado);
+            document.write('<br>El sueldo bruto es: '+ sueldoBruto);
+            document.write('<br>El sueldo neto es: ' + sueldoNeto);
+            document.write('<br>El premio 1 es: ' + premio1);
+            document.write('<br>El premio 2 es: ' + premio2);
+            document.write('<br>El premio 3 es: ' + premio3);
+            document.write('<br>El sueldo en mano es de: ' + enMano);
+
+            nroEmpleado++;
+
+        }while(nroEmpleado <= 3); // Repite para tres empelados
+
+
+    </script>
+</body>
+</html>
